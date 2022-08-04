@@ -58,7 +58,7 @@ let findA = monedas.find((elemento)  => {
    })
 let findB = monedas.find ((elemento) => monedas.nombre != "Dolar")
 
-
+//
 
 let nombre = prompt("Bienvenido a ARS Converter. \nIngrese su Nombre y Apellido")
 let bienvenida = "Bienvenid@" + " " + nombre +".\nComenzamos?"
@@ -87,3 +87,5 @@ if(TipodeCambio == "Libra Esterlina"){
 }
 
 alert ("ARS Converter agradece tu consulta.")
+
+//
